@@ -54,10 +54,6 @@ if (window.innerWidth < 768) {
   sideBar.classList.add("hide");
 }
 
-// function redirectToPage() {
-//   let url = document.getElementById("select-page").value;
-//   window.location.href = url;
-// }
 
 document.addEventListener('DOMContentLoaded', function() {
   const sideMenu = document.querySelector('.side-menu');
@@ -164,51 +160,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
       </main>`;
           break;
-
-      case 'Chat With Us':
-          contentDiv.innerHTML = `<main>
-        <div class="head-title">
-          <div class="left">
-            <h1>Cattle Mortality Distribution Over Seasons</h1>
-          </div>
-        </div>
-
-        <div class="table-data">
-          <div class="order">
-            <div class="head">
-
-              <div>
-                <p>
-                    <img src="Figure_2.jpeg" alt="Pie Chart" style="width: 50%; height: auto;">
-                </p>
-            </div>
-            
-          </div>
-          </div>
-        </div>
-
-        <br>
-
-        <div class="head-title">
-          <div class="left">
-            <h1>Cattle Mortality Distribution Over Seasons</h1>
-          </div>
-        </div>
-
-        <div class="table-data">
-          <div class="order">
-            <div class="head">
-
-            <div>
-              <p>
-                  
-                  <img src="Figure_1.jpeg" alt="Pie Chart" style="width: 50%; height: auto;">
-              </p>
-          </div>
           
-        </div>
-      </main>`;
-          break;
       default:
           content = '<p>Welcome! Click an item from the dashboard to see the content.</p>';
   }

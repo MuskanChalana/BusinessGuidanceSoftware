@@ -227,25 +227,29 @@ body.dark {
   margin-right: auto;
 }
 
-.content nav form .form-input {
+.content form .form-input {
+  position: relative;
+  left: 180px;
   display: flex;
   align-items: center;
   height: 36px;
+  width: 500px;
+  margin: 20px 0 20px 0;
 }
 
-.content nav form .form-input input {
+.content form .form-input input {
   flex-grow: 1;
   padding: 0 16px;
   height: 100%;
   border: none;
-  background: var(--grey);
-  border-radius: 36px 0 0 36px;
+  background: white;
+  border-radius: 20px 20px 20px 20px;
   outline: none;
   width: 100%;
   color: var(--dark);
 }
 
-.content nav form .form-input button {
+.content form .form-input button {
   width: 36px;
   height: 100%;
   display: flex;
@@ -611,11 +615,11 @@ body.dark {
 }
 
 @media (max-width: 576px) {
-  .content nav form .form-input input {
+  .content form .form-input input {
     display: none;
   }
 
-  .content nav form .form-input button {
+  .content form .form-input button {
     width: auto;
     height: auto;
     background: transparent;
@@ -623,12 +627,12 @@ body.dark {
     color: var(--dark);
   }
 
-  .content nav form.show .form-input input {
+  .content form.show .form-input input {
     display: block;
     width: 100%;
   }
 
-  .content nav form.show .form-input button {
+  .content form.show .form-input button {
     width: 36px;
     height: 36px;
     border-radius: 0 36px 36px 0;
