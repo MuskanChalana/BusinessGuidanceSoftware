@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="bot.css" />
+    <!-- <link rel="stylesheet" href="https://testautomatedabiiltyai.s3.eu-north-1.amazonaws.com/main.css"> -->
+  </head>
+
+  <!-- <body style="background-color: #fa4242"> -->
+  <body>
+    <div class="chat-box">
+      <header>
+        <h1>
+          <div class="header-avatar">
+            <img
+              src="./images/robot-chatbot-icon-sign-free-vector (1).jpg"
+              alt="Bot Logo"
+              class="company-logo"
+              draggable="false"
+            />
+            <div class="availibility-dot"></div>
+          </div>
+
+          <div>User Query</div>
+          <div class="more-menu-dropdown">
+            <div class="more-menu-dropbtn">
+            </div>
+            <div class="more-menu-dropdown-content">
+              <a href="javascript:;" class="end-conversation">End conversation</a>
+              <a href="javascript:;" class="restart-conversation">Restart conversation</a>
+              <a href="javascript:;">Reserved feature</a>
+            </div>
+          </div>
+        </h1>
+      </header>
+      <section id="message-list"></section>
+      <footer>
+        <div class="typing-spinner">
+          <span>Finding a solution for you </span>
+          <div class="bounce1"></div>
+          <div class="bounce2"></div>
+          <div class="bounce3"></div>
+        </div>
+        <input id="message-input" type="text" placeholder="Type a message..." />
+        <div class="message-send-button">
+          <img
+            src="images/736110.png"
+            alt="Message Send Button"
+            draggable="false"
+            height="20"
+            width="20"
+          />
+        </div>
+      </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/markdown-it@13.0.2/dist/markdown-it.min.js"></script>
+    <script src="bot.js"></script>
+
+    <!-- <script src="https://testautomatedabiiltyai.s3.eu-north-1.amazonaws.com/main.js"></script> -->
+  </body>
+</html>

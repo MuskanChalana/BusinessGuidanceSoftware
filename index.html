@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EAGL</title>
+
+    <!--font awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!--css file-->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="sidebar">
+      <a href="#" class="logo">
+        <i class="fab fa-slack"></i>
+        <span class="text">Dashboard</span>
+      </a>
+
+      <ul class="side-menu top">
+        <li class="active" data-content="Inventory">
+          <a href="#" class="nav-link">
+            <i class="fas fa-database"></i>
+            <span class="text">Inventory</span>
+          </a>
+        </li>
+
+        <li data-content="Chat With Us">
+          <a href="#" class="nav-link">
+            <i class="fas fa-comments"></i>
+            <span class="text">Chat With Us</span>
+          </a>
+        </li>
+      
+  
+      </ul>
+
+      <ul class="side-menu">
+        <li>
+          <a href="#">
+            <i class="fas fa-cog"></i>
+            <span class="text">Settings</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="logout">
+            <i class="fas fa-right-from-bracket"></i>
+            <span class="text">Logout</span>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="content">
+      <!-- <nav>
+        <i class="fas fa-bars menu-btn"></i>
+        <a href="#" class="nav-link">Categories</a>
+        <form action="#">
+          <div class="form-input">
+            <input type="search" placeholder="search..." />
+            <button class="search-btn">
+              <i class="fas fa-search search-icon"></i>
+            </button>
+          </div>
+        </form>
+
+        <input type="checkbox" hidden id="switch-mode" />
+        <label for="switch-mode" class="switch-mode"></label>
+
+        <a href="#" class="notification">
+          <i class="fas fa-bell"></i>
+          <span class="num">28</span>
+        </a>
+
+        <a href="#" class="profile">
+          <img src="profile.png" alt="" />
+        </a>
+      </nav> -->
+
+      <main id="content" class="content">
+        <div class="head-title">
+          <div class="left">
+            <h1>Inventory</h1>
+            <ul class="breadcrumb">
+              <li>
+                <a href="#">Dashboard</a>
+              </li>
+              <i class="fas fa-chevron-right"></i>
+              <li>
+                <a href="#" class="active">Inventory</a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+
+
+        <div class="table-data">
+          <div class="order">
+            <div class="head">
+              <h3>Stock</h3>
+              <i class="fas fa-search"></i>
+              <i class="fas fa-filter"></i>
+            </div>
+
+            <table>
+              <thead>
+                <tr>
+                  <th>Product Name</th>
+                  <th>Category</th>
+                  <th>Quantity</th>
+                  <th>Price</th>
+                  <th>Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Wireless Mouse</td>
+                  <td>Electronics</td>
+                  <td>10</td>
+                  <td>₹2000</td>
+                  <td>A sleek and ergonomic wireless mouse with long battery life.</td>
+                </tr>
+                <tr>
+                  <td>Running Shoes</td>
+                  <td>Sportswear</td>
+                  <td>15</td>
+                  <td>₹4000</td>
+                  <td>Comfortable and durable running shoes for all terrains.</td>
+                </tr>
+                <tr>
+                  <td>Ceramic Mug</td>
+                  <td>Kitchenware</td>
+                  <td>30</td>
+                  <td>₹600</td>
+                  <td>A stylish ceramic mug perfect for coffee or tea.</td>
+                </tr>
+                <tr>
+                  <td>Bluetooth Speaker</td>
+                  <td>Electronics</td>
+                  <td>20</td>
+                  <td>₹2800</td>
+                  <td>Portable Bluetooth speaker with excellent sound quality.</td>
+                </tr>
+                <tr>
+                  <td>Yoga Mat</td>
+                  <td>Sportswear</td>
+                  <td>25</td>
+                  <td>₹1600</td>
+                  <td>Eco-friendly and non-slip yoga mat for all yoga practices.</td>
+                </tr>
+                <tr>
+                  <td>Notebook</td>
+                  <td>Stationery</td>
+                  <td>50</td>
+                  <td>₹400</td>
+                  <td>A5 size notebook with 100 lined pages for notes and ideas.</td>
+                </tr>
+                
+                
+              </tbody>
+            </table>
+          </div>
+
+          <a href="add.html><button>"btn">Modify</button>
+              
+
+        </div>
+
+        
+      </main>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
